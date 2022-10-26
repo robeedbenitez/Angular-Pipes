@@ -8,16 +8,15 @@ import { NoCommonComponent } from './pages/no-common/no-common.component';
 import { BasicsComponent } from './pages/basics/basics.component';
 import { OrderComponent } from './pages/order/order.component';
 
-
-
-
+import { MayusculasPipe } from './pipes/mayusculas.pipe';
 
 @NgModule({
   declarations: [
     NumbersComponent,
     NoCommonComponent,
     BasicsComponent,
-    OrderComponent
+    OrderComponent,
+    MayusculasPipe
   ],
   exports: [
     NumbersComponent,
